@@ -28,3 +28,25 @@ do {
     } while (true) {      
 
 ```
+3.`switch`: ele vai verificar o valor de operação, e dependendo do que o usuario digitou ele vai realizar a operação desejada.
+```
+switch (operacao){
+    case '+':
+        console.log((primeiroNumero + segundoNumero))
+        break;
+    case '-':
+        console.log((primeiroNumero - segundoNumero))
+        break;
+    case '*':
+        console.log((primeiroNumero * segundoNumero))
+        break;
+    case '/':
+        console.log((primeiroNumero / segundoNumero))
+        break;
+    case '%':
+        console.log(((primeiroNumero * segundoNumero) / 100))
+        break;
+    }
+}
+```
+Cada `case` vai realizar uma operação matematica, e o `console.log` vai exibir o resultado da conta. 
